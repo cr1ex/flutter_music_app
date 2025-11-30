@@ -4,30 +4,34 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: '>=2.17.0 <4.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  
-  # Совместимые версии для iOS:
-  shared_preferences: ^2.2.2
-  localstorage: ^4.0.0+1
-  provider: ^6.1.1
-  oktoast: ^3.4.0
+  cupertino_icons: ^1.0.2
+
+  # Основные рабочие пакеты
+  shared_preferences: ^2.0.15
+  provider: ^6.0.5
+  http: ^0.13.5
+  path_provider: ^2.0.15
+  cached_network_image: ^3.2.3
   pull_to_refresh: ^2.0.0
-  dio: ^4.0.0
-  device_info_plus: ^4.0.0
-  package_info_plus: ^2.3.0
+  oktoast: ^3.2.4
   shimmer: ^2.0.0
   bubble_bottom_bar: ^2.0.0
-  audioplayers: ^5.2.1  # Правильная версия
-  cupertino_icons: ^1.0.2
-  cached_network_image: ^3.2.3
-  http: ^1.1.0
-  path_provider: ^2.0.15
+  localstorage: ^4.0.1
+  dio: ^4.0.6
+
+  # Аудио с совместимой версией
+  audioplayers: ^0.20.1
+
+  # Информация об устройстве и пакете
+  device_info: ^2.0.3
+  package_info: ^2.0.2
 
 dev_dependencies:
   flutter_test:
