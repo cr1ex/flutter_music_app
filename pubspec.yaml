@@ -19,14 +19,14 @@ dependencies:
   oktoast: ^3.4.0
   pull_to_refresh: ^2.0.0
   dio: ^4.0.0
-  device_info_plus: ^4.0.0  # Замена для device_info
-  package_info_plus: ^2.3.0  # Замена для package_info
+  device_info_plus: ^4.0.0
+  package_info_plus: ^2.3.0
   shimmer: ^2.0.0
   bubble_bottom_bar: ^2.0.0
-  audioplayers: ^0.21.4  # Стабильная версия для iOS
+  audioplayers: ^5.2.1  # Правильная версия
   cupertino_icons: ^1.0.2
   cached_network_image: ^3.2.3
-  http: ^0.13.6
+  http: ^1.1.0
   path_provider: ^2.0.15
 
 dev_dependencies:
