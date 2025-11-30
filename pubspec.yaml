@@ -12,22 +12,22 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   
-  # Обновленные зависимости с поддержкой null safety:
+  # Совместимые версии для iOS:
   shared_preferences: ^2.2.2
   localstorage: ^4.0.0+1
   provider: ^6.1.1
-  oktoast: ^3.0.1
+  oktoast: ^3.4.0
   pull_to_refresh: ^2.0.0
-  dio: ^5.3.3
-  device_info: ^2.0.3
-  package_info: ^2.0.2
+  dio: ^4.0.0
+  device_info_plus: ^4.0.0  # Замена для device_info
+  package_info_plus: ^2.3.0  # Замена для package_info
   shimmer: ^2.0.0
   bubble_bottom_bar: ^2.0.0
-  audioplayers: ^5.2.1
+  audioplayers: ^0.21.4  # Стабильная версия для iOS
   cupertino_icons: ^1.0.2
-  cached_network_image: ^3.3.0
-  http: ^1.1.0
-  path_provider: ^2.1.1
+  cached_network_image: ^3.2.3
+  http: ^0.13.6
+  path_provider: ^2.0.15
 
 dev_dependencies:
   flutter_test:
